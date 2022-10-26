@@ -21,6 +21,8 @@ public class ChromeDriver106Configuration extends ConfigurationDefaults {
             System.setProperty("webdriver.chrome.driver", config.getValue("chromedriver106macos"));
         } else if (OSValidator.isMacM1()) {
             System.setProperty("webdriver.chrome.driver", config.getValue("chromedriver106macosm1"));
+        } else if (OSValidator.isWindows()) {
+            System.setProperty("webdriver.chrome.driver", config.getValue("chromedriver101windows"));
         } else {
             throw new RuntimeException("Not yet supported");
         }

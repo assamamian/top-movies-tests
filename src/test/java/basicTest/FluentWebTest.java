@@ -13,7 +13,9 @@ import webdriverfactory.ChromeDriver106Configuration;
 
 import java.lang.reflect.Method;
 
+//Décommenter la ligne correspondant la version de chrome installée (106 ou 107), ne pas oublier de commenter l'autre si changement
 @FluentConfiguration(configurationDefaults = ChromeDriver106Configuration.class)
+//@FluentConfiguration(configurationDefaults = ChromeDriver107Configuration.class)
 public class FluentWebTest extends FluentTestNg{
 
     private static Logger logger = LoggerFactory.getLogger(FluentWebTest.class);

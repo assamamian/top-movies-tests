@@ -12,6 +12,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <chrome.106.driver.macosm1.path>${project.basedir}/src/drivers/chrome/106/macosm1/chromedriver
         </chrome.106.driver.macosm1.path>
+        <chrome.106.driver.macos.path>${project.basedir}/src/drivers/chrome/106/macos/chromedriver
+        </chrome.106.driver.macos.path>
+        <chrome.106.driver.linux.path>${project.basedir}/src/drivers/chrome/106/linux/chromedriver
+        </chrome.106.driver.linux.path>
+        <chrome.106.driver.windows.path>${project.basedir}/src/drivers/chrome/106/windows/chromedriver.exe
+        </chrome.106.driver.windows.path>
+        <chrome.107.driver.macosm1.path>${project.basedir}/src/drivers/chrome/107/macosm1/chromedriver
+        </chrome.107.driver.macosm1.path>
+        <chrome.107.driver.macos.path>${project.basedir}/src/drivers/chrome/107/macos/chromedriver
+        </chrome.107.driver.macos.path>
+        <chrome.107.driver.linux.path>${project.basedir}/src/drivers/chrome/107/linux/chromedriver
+        </chrome.107.driver.linux.path>
+        <chrome.107.driver.windows.path>${project.basedir}/src/drivers/chrome/107/windows/chromedriver.exe
+        </chrome.107.driver.windows.path>
 
         <!-- dependencies versions -->
         <jackson.version>2.10.1</jackson.version>
